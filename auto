@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cd /root/alx-system_engineering-devops/0x00-shell_basics
+
+touch 103-commas
+
+echo -e "#!/bin/bash\nls -amp">103-commas
+
+chmod u+x 103-commas
+
+/root/alx-system_engineering-devops/git
