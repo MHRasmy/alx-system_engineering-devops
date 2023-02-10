@@ -1,11 +1,43 @@
 #!/bin/bash
 
-cd /root/alx-system_engineering-devops/0x00-shell_basics
+cd /root/alx-system_engineering-devops/0x01-shell_permissions
 
-touch 103-commas
+touch 100-change_owner_and_group
 
-echo -e "#!/bin/bash\nls -amp">103-commas
+echo -e "#!/bin/bash\nchown vincent:staff">100-change_owner_and_group
 
-chmod u+x 103-commas
+chmod u+x 100-change_owner_and_group
+
+
+
+cd /root/alx-system_engineering-devops/0x01-shell_permissions
+
+touch 101-symbolic_link_permissions
+
+echo -e "#!/bin/bash\nchown -h vincent:staff _hello">101-symbolic_link_permissions
+
+chmod u+x 101-symbolic_link_permissions
+
+
+
+cd /root/alx-system_engineering-devops/0x01-shell_permissions
+
+touch 102-if_only
+
+echo -e "#!/bin/bash\nchown --from=guillaume betty hello">102-if_only
+
+chmod u+x 102-if_only
+
+
+
+cd /root/alx-system_engineering-devops/0x01-shell_permissions
+
+touch 103-Star_Wars
+
+echo -e "#!/bin/bash\ntelnet towel.blinkenlights.nl">103-Star_Wars
+
+chmod u+x 103-Star_Wars
+
+
 
 /root/alx-system_engineering-devops/git
