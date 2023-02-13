@@ -1,0 +1,2 @@
+#!/bin/bash
+dir_count=$(find . -type d ! -path . ! -path .. | wc -l)
