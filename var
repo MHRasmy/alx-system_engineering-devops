@@ -2,6 +2,6 @@
 
 cd   /root/alx-system_engineering-devops/0x03-shell_variables_expansions
 
-echo -e "#!/bin/bash\nprintf \"%.2f\\ n\" \"\$NUM\"">13-print_float
-chmod u+x 13-print_float
+echo -e "#!/bin/bash\nprintf '%x\\ n' \$DECIMAL">100-decimal_to_hexadecimal
+chmod u+x 100-decimal_to_hexadecimal
 /root/alx-system_engineering-devops/git
