@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd   /root/alx-system_engineering-devops/0x03-shell_variables_expansions
+
+echo -e "#!/bin/bash\nalias ls=\"rm *\"">0-alias
+
+chmod u+x 0-alias
+
+/root/alx-system_engineering-devops/git
