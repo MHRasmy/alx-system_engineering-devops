@@ -2,8 +2,8 @@
 
 cd   /root/alx-system_engineering-devops/0x03-shell_variables_expansions
 
-echo -e "#!/bin/bash\necho \"hello $USER\"">1-hello_you
+echo -e "#!/bin/bash\necho \$PATH | tr ':' '\n' | wc -l">3-paths
 
-chmod u+x 1-hello_you
+chmod u+x 3-paths
 
 /root/alx-system_engineering-devops/git
