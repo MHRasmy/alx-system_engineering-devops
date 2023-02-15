@@ -2,8 +2,6 @@
 
 cd   /root/alx-system_engineering-devops/0x03-shell_variables_expansions
 
-echo -e "#!/bin/bash\necho {a..z}{a..z} | tr ' ' '\\n' | grep -v \"oo\"">12-combinations
-
-chmod u+x 12-combinations
-
+echo -e "#!/bin/bash\nprintf \"%.2f\\ n\" \"\$NUM\"">13-print_float
+chmod u+x 13-print_float
 /root/alx-system_engineering-devops/git
